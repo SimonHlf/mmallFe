@@ -2,7 +2,7 @@
  * @Author: simonHlf 
  * @Date: 2018-10-16 22:16:37 
  * @Last Modified by: simonHlf
- * @Last Modified time: 2018-10-17 22:38:40
+ * @Last Modified time: 2018-10-28 23:43:23
  */
 require('./index.css');
 var _mm = require('util/mm.js');
@@ -22,7 +22,7 @@ var nav = {
         });
         //注册点击事件
         $('.js-register').click(function(){
-            window.location.href = './register.html';
+            window.location.href = './user-register.html';
         });
         //退出点击事件
         $('.js-loginOut').click(function(){

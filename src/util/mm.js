@@ -2,7 +2,7 @@
  * @Author: simonHlf 
  * @Date: 2018-10-16 17:21:36 
  * @Last Modified by: simonHlf
- * @Last Modified time: 2018-10-17 23:24:38
+ * @Last Modified time: 2018-10-26 22:29:52
  */
 var Hogan = require('hogan.js');
 var conf = {
@@ -80,7 +80,7 @@ var _mm = {
     },
     //统一登录处理
     doLogin : function(){
-        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
     //返回主页
     goHome : function(){
